@@ -134,8 +134,8 @@ So two `User` objects are considered equal **if and only if they have the same n
 ### `Main.java`
 
 ```java
-User user1 = new User("ali1");
-User user2 = new User("ali2");
+User user1 = new User("ali");
+User user2 = new User("ali");
 
 // 1. equals test
 boolean result = user1.equals(user2);
